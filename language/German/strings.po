@@ -1,0 +1,659 @@
+# XBMC Media Center language file
+# Addon Name: reFocus.bebox
+# Addon id: skin.refocus.bebox
+# Addon version: 1.0.1
+# Addon Provider: Martin Becker
+# Translators:
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: skin-refocus-bebox\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-02-25 23:29+0000\n"
+"Last-Translator: mbecker\n"
+"Language-Team: German (http://www.transifex.com/projects/p/refocus/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: HOME
+msgctxt "#31000"
+msgid "Home Menu"
+msgstr ""
+
+
+#: Home Menu
+msgctxt "#31010"
+msgid "Neue Folgen"
+msgstr ""
+
+msgctxt "#31011"
+msgid "Neue Filme"
+msgstr ""
+
+msgctxt "#31012"
+msgid "Neue Alben"
+msgstr ""
+
+msgctxt "#31013"
+msgid "Watchlist"
+msgstr ""
+
+msgctxt "#31014"
+msgid "Live TV"
+msgstr ""
+
+msgctxt "#31015"
+msgid "Trailer"
+msgstr ""
+
+msgctxt "#31016"
+msgid "Zuletzt gespielt"
+msgstr ""
+
+msgctxt "#31017"
+msgid "Empfohlen"
+msgstr ""
+
+msgctxt "#31018"
+msgid "Sie wollen die Einstellungen löschen. Sie werden keine Systemeinstellungen vornehmen können, bis sie eine neue Methode gewählt haben. Sind sie sicher?"
+msgstr ""
+
+
+#: Home shelf
+msgctxt "#31030"
+msgid "Empfohlene Filme"
+msgstr ""
+
+msgctxt "#31031"
+msgid "Empfohlene Folgen"
+msgstr ""
+
+msgctxt "#31032"
+msgid "Empfohlene Alben"
+msgstr ""
+
+msgctxt "#31033"
+msgid "Wird gerade gezeigt"
+msgstr ""
+
+msgctxt "#31034"
+msgid "Spielt gerade"
+msgstr ""
+
+msgctxt "#31035"
+msgid "Select tv shows widget source"
+msgstr ""
+
+msgctxt "#31036"
+msgid "Select movies widget source"
+msgstr ""
+
+msgctxt "#31037"
+msgid "Select music widget source"
+msgstr ""
+
+
+#: MENU / VIEWS
+msgctxt "#31100"
+msgid "Verfügbare Ansichten"
+msgstr ""
+
+msgctxt "#31109"
+msgid "Kacheln"
+msgstr ""
+
+msgctxt "#31110"
+msgid "Banner"
+msgstr ""
+
+msgctxt "#31111"
+msgid "Galerie"
+msgstr ""
+
+msgctxt "#31112"
+msgid "Slide"
+msgstr ""
+
+msgctxt "#31113"
+msgid "Vorschaubildchen"
+msgstr ""
+
+msgctxt "#31114"
+msgid "Ansicht"
+msgstr ""
+
+
+msgctxt "#31120"
+msgid "Layout"
+msgstr ""
+
+msgctxt "#31121"
+msgid "Querformat"
+msgstr ""
+
+msgctxt "#31122"
+msgid "Hochformat"
+msgstr ""
+
+msgctxt "#31123"
+msgid "Großes Raster"
+msgstr ""
+
+msgctxt "#31124"
+msgid "Kleines Raster"
+msgstr ""
+
+msgctxt "#31125"
+msgid "Vollbild"
+msgstr ""
+
+msgctxt "#31126"
+msgid "Streifen"
+msgstr ""
+
+
+msgctxt "#31140"
+msgid "Sortiere"
+msgstr ""
+
+msgctxt "#31141"
+msgid "Reihenfolge"
+msgstr ""
+
+
+msgctxt "#31143"
+msgid "Items"
+msgstr ""
+
+msgctxt "#31144"
+msgid "By"
+msgstr ""
+
+msgctxt "#31145"
+msgid "Genre unbekannt"
+msgstr ""
+
+msgctxt "#31146"
+msgid "Datum unbekannt"
+msgstr ""
+
+msgctxt "#31147"
+msgid "Ungesehene Folge"
+msgstr ""
+
+msgctxt "#31148"
+msgid "Ungesehene Folgen"
+msgstr ""
+
+msgctxt "#31149"
+msgid "Sortieren nach"
+msgstr ""
+
+msgctxt "#31150"
+msgid "Datei Modus"
+msgstr ""
+
+msgctxt "#31151"
+msgid "Details fehlen"
+msgstr ""
+
+
+#: SETTINGS
+msgctxt "#31200"
+msgid "Homescreen"
+msgstr ""
+
+msgctxt "#31201"
+msgid "Artwork"
+msgstr ""
+
+msgctxt "#31202"
+msgid "Anzeigeeinstellungen"
+msgstr ""
+
+msgctxt "#31203"
+msgid "Andere"
+msgstr ""
+
+msgctxt "#31204"
+msgid "Über"
+msgstr ""
+
+msgctxt "#31205"
+msgid "Einstellungsdetails"
+msgstr ""
+
+
+msgctxt "#31209"
+msgid "Benutze kompaktes Menü"
+msgstr ""
+
+msgctxt "#31210"
+msgid "Home Menu anpassen"
+msgstr ""
+
+msgctxt "#31211"
+msgid "Regal aktivieren"
+msgstr ""
+
+msgctxt "#31212"
+msgid "Einzelnes Bild als Hintergrund"
+msgstr ""
+
+msgctxt "#31213"
+msgid "Ordner mit Bildern für Hintergrund Slideshow"
+msgstr ""
+
+msgctxt "#31214"
+msgid "Slideshow von Fanart"
+msgstr ""
+
+msgctxt "#31215"
+msgid "Zeige gespieltes Video im Hintergrund"
+msgstr ""
+
+msgctxt "#31216"
+msgid "Zeige gespieltes Element im Home Screen"
+msgstr ""
+
+msgctxt "#31217"
+msgid "Fanart slideshow"
+msgstr ""
+
+msgctxt "#31218"
+msgid "Select the type of fanart to show"
+msgstr ""
+
+msgctxt "#31219"
+msgid "How to display the fanart title"
+msgstr ""
+
+msgctxt "#31220"
+msgid "Zeige als Text"
+msgstr ""
+
+msgctxt "#31221"
+msgid "Zeige Logo (falls verfügbar)"
+msgstr ""
+
+msgctxt "#31222"
+msgid "Zeige nichts"
+msgstr ""
+
+
+msgctxt "#31230"
+msgid "Enable Global Fanart Background"
+msgstr ""
+
+msgctxt "#31231"
+msgid "Use weather fanart"
+msgstr ""
+
+msgctxt "#31232"
+msgid "Set weather fanart path"
+msgstr ""
+
+
+msgctxt "#31234"
+msgid "Use fanart in now playing screen"
+msgstr ""
+
+msgctxt "#31235"
+msgid "Blend visualisation and fanart"
+msgstr ""
+
+msgctxt "#31236"
+msgid "Logos für TV Serien aktivieren"
+msgstr ""
+
+msgctxt "#31237"
+msgid "Logos für Filme aktivieren"
+msgstr ""
+
+msgctxt "#31238"
+msgid "Logos herunterladen"
+msgstr ""
+
+msgctxt "#31239"
+msgid "Banners für Filme aktivieren"
+msgstr ""
+
+msgctxt "#31240"
+msgid "Banner herunterladen"
+msgstr ""
+
+msgctxt "#31241"
+msgid "Bevorzuge Querformat wenn verfügbar"
+msgstr ""
+
+msgctxt "#31242"
+msgid "Vorschaubildchen herunterladen"
+msgstr ""
+
+
+msgctxt "#31251"
+msgid "Ersten Buchstaben hervorheben beim Scrollen"
+msgstr ""
+
+msgctxt "#31252"
+msgid "Aktiviere spielt-jetzt-Knopf im Optionenmenü"
+msgstr ""
+
+msgctxt "#31253"
+msgid "Einblendungen aktivieren"
+msgstr ""
+
+msgctxt "#31254"
+msgid "Disable unwatched indicators for movies"
+msgstr ""
+
+msgctxt "#31255"
+msgid "Disable unwatched indicators for TV shows"
+msgstr ""
+
+msgctxt "#31256"
+msgid "Disable unwatched indicators for episodes"
+msgstr ""
+
+msgctxt "#31257"
+msgid "Disable unwatched indicators for video files"
+msgstr ""
+
+msgctxt "#31258"
+msgid "Disable resumable indicators"
+msgstr ""
+
+msgctxt "#31259"
+msgid "Disable Next Aired add-on"
+msgstr ""
+
+msgctxt "#31260"
+msgid "Disable GlobalSearch add-on"
+msgstr ""
+
+msgctxt "#31261"
+msgid "Disable Artist Slideshow add-on"
+msgstr ""
+
+
+msgctxt "#31263"
+msgid "Enable virtual keyboard"
+msgstr ""
+
+msgctxt "#31264"
+msgid "Kiosk-Modus"
+msgstr ""
+
+msgctxt "#31265"
+msgid "Clean library before updating manually"
+msgstr ""
+
+
+msgctxt "#31280"
+msgid "Plugin"
+msgstr ""
+
+msgctxt "#31281"
+msgid "Output"
+msgstr ""
+
+msgctxt "#31282"
+msgid "Enable TV Tunes add-on"
+msgstr ""
+
+msgctxt "#31283"
+msgid "Show current playlist button when playback is stopped"
+msgstr ""
+
+
+#: OSD / PLAYER
+msgctxt "#31300"
+msgid "Fwd 2X"
+msgstr ""
+
+msgctxt "#31301"
+msgid "Fwd 4X"
+msgstr ""
+
+msgctxt "#31302"
+msgid "Fwd 8X"
+msgstr ""
+
+msgctxt "#31303"
+msgid "Fwd 16X"
+msgstr ""
+
+msgctxt "#31304"
+msgid "Fwd 32X"
+msgstr ""
+
+msgctxt "#31305"
+msgid "Rwd 2X"
+msgstr ""
+
+msgctxt "#31306"
+msgid "Rwd 4X"
+msgstr ""
+
+msgctxt "#31307"
+msgid "Rwd 8X"
+msgstr ""
+
+msgctxt "#31308"
+msgid "Rwd 16X"
+msgstr ""
+
+msgctxt "#31309"
+msgid "Rwd 32X"
+msgstr ""
+
+msgctxt "#31320"
+msgid "Hole Untertitel"
+msgstr ""
+
+msgctxt "#31321"
+msgid "Untertitel deaktivieren"
+msgstr ""
+
+msgctxt "#31322"
+msgid "Hole Liedtext"
+msgstr ""
+
+msgctxt "#31323"
+msgid "Endzeit:"
+msgstr ""
+
+msgctxt "#31324"
+msgid "In 2D ansehen"
+msgstr ""
+
+msgctxt "#31325"
+msgid "In 3D ansehen"
+msgstr ""
+
+msgctxt "#31326"
+msgid "3D-Modus wählen"
+msgstr ""
+
+msgctxt "#31327"
+msgid "Nächste Untertitel"
+msgstr ""
+
+msgctxt "#31328"
+msgid "Playlist"
+msgstr ""
+
+msgctxt "#31329"
+msgid "Untertitel-Einstellungen"
+msgstr ""
+
+
+#: PVR
+msgctxt "#31400"
+msgid "Verfügbare Gruppen"
+msgstr ""
+
+msgctxt "#31401"
+msgid "Gruppe hinzufügen"
+msgstr ""
+
+msgctxt "#31402"
+msgid "Gruppe umbenennen"
+msgstr ""
+
+msgctxt "#31403"
+msgid "Gruppe löschen"
+msgstr ""
+
+msgctxt "#31404"
+msgid "Versteckte Kanäle"
+msgstr ""
+
+msgctxt "#31405"
+msgid "Übernehmen"
+msgstr ""
+
+
+#: MEDIA INFO
+msgctxt "#31500"
+msgid "Alter"
+msgstr ""
+
+msgctxt "#31501"
+msgid "Zuletzt ausgestrahlt am"
+msgstr ""
+
+msgctxt "#31502"
+msgid "Nächste Ausstrahlung"
+msgstr ""
+
+msgctxt "#31503"
+msgid "Status"
+msgstr ""
+
+msgctxt "#31504"
+msgid "Zeige geplante Aufnahmen im Home Screen"
+msgstr ""
+
+
+msgctxt "#31520"
+msgid "Change artwork"
+msgstr ""
+
+msgctxt "#31521"
+msgid "Download theme song"
+msgstr ""
+
+
+#: ADD-ONS
+msgctxt "#31604"
+msgid "Neue Suche"
+msgstr ""
+
+msgctxt "#31605"
+msgid "Jetzt"
+msgstr ""
+
+msgctxt "#31606"
+msgid "TV Guide"
+msgstr ""
+
+msgctxt "#31607"
+msgid "Set default lyrics add-on"
+msgstr ""
+
+
+#: VARIABLES / OTHER
+msgctxt "#31700"
+msgid "Repositories"
+msgstr ""
+
+msgctxt "#31701"
+msgid "Min"
+msgstr ""
+
+msgctxt "#31702"
+msgid "Zuletzt gespielt am"
+msgstr ""
+
+
+msgctxt "#31705"
+msgid "Zuletzt hinzugefügt"
+msgstr ""
+
+
+msgctxt "#31707"
+msgid "Hole Fanart"
+msgstr ""
+
+msgctxt "#31708"
+msgid "Willkommen"
+msgstr ""
+
+msgctxt "#31709"
+msgid "Bitte einloggen"
+msgstr ""
+
+
+msgctxt "#31711"
+msgid "Suche"
+msgstr ""
+
+msgctxt "#31712"
+msgid "Arbeite"
+msgstr ""
+
+msgctxt "#31713"
+msgid "Alle Skin-Einstellungen zurücksetzen"
+msgstr ""
+
+msgctxt "#31714"
+msgid "To apply the settings, the skin needs to be reloaded"
+msgstr ""
+
+msgctxt "#31715"
+msgid "Kann dies jetzt erledigt werden?"
+msgstr ""
+
+msgctxt "#31716"
+msgid "Dies setzt alle Anzeigeeinstellungen zurück. Kann nicht rückgängig gemacht werden."
+msgstr ""
+
+msgctxt "#31717"
+msgid "Fertigstellen"
+msgstr ""
+
+
+#: CREDITS / ABOUT
+
+msgctxt "#31800"
+msgid "Skin design + development"
+msgstr ""
+
+msgctxt "#31801"
+msgid "Special thanks"
+msgstr ""
+
+msgctxt "#31802"
+msgid "Attribution"
+msgstr ""
+
+msgctxt "#31803"
+msgid "Übersetzung"
+msgstr ""
+
+msgctxt "#31804"
+msgid "Final note"
+msgstr ""
+
+msgctxt "#31805"
+msgid "Team-XBMC, the XBMC Community, and YOU for using reFocus!"
+msgstr ""
+
+msgctxt "#31806"
+msgid "Please consider supporting the development of xbmc - [B]xbmc.org/contribute/[/B]"
+msgstr ""
