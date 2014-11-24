@@ -31,7 +31,7 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<height>51</height>
-		<textcolor>Color4</textcolor>
+		<textcolor>Color5</textcolor>
 		<scroll>false</scroll>
 	</include>
 	<include name="dialog_WindowButton">	

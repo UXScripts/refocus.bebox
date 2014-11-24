@@ -4,18 +4,18 @@
 	<include>transition_Dialog</include>
 	<coordinates>
 		<system>1</system>
-		<left>340</left>
-		<top>90</top>
+		<left>190</left>
+		<top>70</top>
 	</coordinates>
 	<controls>
 		<control type="group">
 			<control type="image">
-				<width>600</width>
-				<height>540</height>
+				<width>900</width> <!-- was: 600 -->
+				<height>600</height> <!-- was: 540 -->
 				<include>dialog_Window</include>
 			</control>
 			<control type="label">
-				<width>592</width>
+				<width>892</width>
 				<label>$LOCALIZE[19047]</label>
 				<include>dialog_Windowtitle</include>
 			</control>
@@ -23,30 +23,30 @@
 				<left>4</left>
 				<top>60</top>
 				<control type="image">
-					<width>592</width>
+					<width>892</width>
 					<include>dialog_Separator</include>
 				</control>
 				<control type="list" id="100">
-					<width>592</width>
+					<width>892</width>
 					<height>240</height>
 					<onup>100</onup>
 					<ondown>100</ondown>
 					<include>global_ListScroll</include>
 					<itemlayout height="40">
 						<control type="image">
-							<width>592</width>
+							<width>892</width>
 							<height>40</height>
 							<include>dialog_CommonList</include>
 						</control>
 						<control type="label">
-							<width>572</width>
+							<width>872</width>
 							<height>36</height>
 							<label>$INFO[ListItem.Label]</label>
 							<include>dialog_CommonListItem</include>
 						</control>
 						<control type="label">
-							<left>572</left>
-							<width>572</width>
+							<left>872</left>
+							<width>872</width>
 							<height>36</height>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
@@ -55,18 +55,18 @@
 					</itemlayout>
 					<focusedlayout height="40">
 						<control type="image">
-							<width>592</width>
+							<width>892</width>
 							<include>dialog_CommonList</include>
 						</control>
 						<control type="label">
-							<width>572</width>
+							<width>872</width>
 							<height>36</height>
 							<label>$INFO[ListItem.Label]</label>
 							<include>dialog_CommonListItem</include>
 						</control>
 						<control type="label">
-							<left>572</left>
-							<width>572</width>
+							<left>872</left>
+							<width>872</width>
 							<height>36</height>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
@@ -107,31 +107,46 @@
 					</content>
 				</control>
 				<!--description-->
+                                <control type="scrollbar" id="401">
+                                  <top>240</top>
+                                  <left>876</left>
+                                  <width>10</width>
+                                  <height>200</height>
+                                  <visible>true</visible>
+                                  <onleft>5</onleft>
+                                  <onright>7</onright>
+                                  <ondown>7</ondown>
+                                  <pulseonselect></pulseonselect>
+                                  <orientation>vertical</orientation>
+                                </control>
 				<control type="textbox" id="400">
 					<left>15</left>
 					<top>240</top>
-					<width>560</width>
-					<height>154</height>
+					<width>800</width>
+					<height>200</height>
 					<label fallback="416">$INFO[ListItem.Plot]</label>
 					<include>dialog_Text</include>
+                                        <scrolltime>1000</scrolltime>
+                                        <pagecontrol>401</pagecontrol>
+                                        <autoscroll delay="5000" time="2000" repeat="10000">!Control.HasFocus(401)</autoscroll>
 				</control>
 				<control type="image">
-					<top>394</top>
-					<width>592</width>
+					<top>550</top>
+					<width>892</width>
 					<include>dialog_Separator</include>
 				</control>
 			</control>
 		</control>
 	<!--dialog controls-->
 		<control type="group" id="9000">
-			<top>475</top>
-			<left>42.5</left>
+			<top>525</top>
+			<left>165</left>
 			<!--switch-->
 			<control type="button" id="5">
 				<label>$LOCALIZE[19165]</label>
 				<onleft>7</onleft>
 				<onright>6</onright>
-				<onup>11</onup>
+				<onup>401</onup>
 				<ondown>11</ondown>
 				<width>165</width>
 				<include>dialog_WindowButton</include>
@@ -142,7 +157,7 @@
 				<label>$LOCALIZE[264]</label>
 				<onleft>5</onleft>
 				<onright>7</onright>
-				<onup>10</onup>
+				<onup>401</onup>
 				<ondown>10</ondown>
 				<width>165</width>
 				<include>dialog_WindowButton</include>
@@ -154,7 +169,7 @@
 				<label>$LOCALIZE[186]</label>
 				<onleft>6</onleft>
 				<onright>5</onright>
-				<onup>10</onup>
+				<onup>401</onup>
 				<ondown>10</ondown>
 				<width>165</width>
 				<include>dialog_WindowButton</include>
