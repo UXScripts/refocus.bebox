@@ -518,7 +518,7 @@ msgstr ""
 
 msgctxt "#31504"
 msgid "Show (scheduled) recording in PVR and Home screen"
-msgstr "Zeige (geplante) Augnahmen auf Startbildschirm"
+msgstr "Zeige (geplante) Aufnahmen auf Startbildschirm"
 
 msgctxt "#31520"
 msgid "Change artwork"

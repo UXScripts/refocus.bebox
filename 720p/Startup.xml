@@ -25,7 +25,7 @@
 		<!--fanart grabber not installed, or installed but not enabled. No further checking, move to home.-->
 		<control type="button" id="11">
 			<include>TriggerButton</include>
-			<onfocus>AlarmClock(StartupDelay,ReplaceWindow($INFO[System.StartupWindow]),00:03,silent)</onfocus>
+			<onfocus>ReplaceWindow($INFO[System.StartupWindow])</onfocus>
 			<visible>!System.HasAddon(script.grab.fanart)</visible>
 		</control>
 		
@@ -41,7 +41,7 @@
 			<include>TriggerButton</include>
 			
 			<!--ready, move to home window-->
-			<onfocus condition="!IsEmpty(Window(Home).Property(script.grab.fanart.Ready))">AlarmClock(StartupDelay,ReplaceWindow($INFO[System.StartupWindow]),00:03,silent)</onfocus>
+			<onfocus condition="!IsEmpty(Window(Home).Property(script.grab.fanart.Ready))">AlarmClock(StartupDelay,ReplaceWindow($INFO[System.StartupWindow]),00:02,silent)</onfocus>
 			
 			<!--not ready, re-check-->
 			<onfocus condition="IsEmpty(Window(Home).Property(script.grab.fanart.Ready))">SetFocus(10)</onfocus>
