@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1101">	
+	<defaultcontrol always="true">10</defaultcontrol>
+	<allowoverlay>no</allowoverlay>	
+	<controls>
+		<control type="image">
+			<include>screen_Dimensions</include>
+			<texture>special://skin/fanart.jpg</texture>
+			<include>fadein</include>
+		</control>
+		
+		<!--initial focus for quit -->
+		<control type="button" id="10">
+			<include>TriggerButton</include>
+			<onfocus>AlarmClock(ShutdownDelay,SetFocus(11),00:01,silent)</onfocus>
+		</control>
+	
+		<!-- quit trigger -->
+		<control type="button" id="11">
+			<include>TriggerButton</include>
+			<onfocus>XBMC.Quit()</onfocus>
+		</control>
+
+		<!--initial focus for shutdown-->
+		<control type="button" id="20">
+			<include>TriggerButton</include>
+			<onfocus>AlarmClock(ShutdownDelay,SetFocus(21),00:01,silent)</onfocus>
+		</control>
+
+		<!-- shutdown trigger -->
+		<control type="button" id="21">
+			<include>TriggerButton</include>
+			<onfocus>XBMC.Powerdown()</onfocus>
+		</control>
+
+		<control type="label">
+			<top>500</top>
+			<width>screen_Width</width>
+			<height>20</height>
+			<label>$LOCALIZE[31718]</label>
+			<font>regular_Small</font>
+			<align>center</align>
+			<textcolor>Color1</textcolor>
+			<include>fadeinout</include>
+		</control>
+	</controls>
+</window>

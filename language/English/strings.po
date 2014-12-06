@@ -627,6 +627,13 @@ msgctxt "#31717"
 msgid "Finishing up"
 msgstr ""
 
+msgctxt "#31718"
+msgid "Shutting down..."
+msgstr ""
+
+msgctxt "#31719"
+msgid "Exiting..."
+msgstr ""
 
 #: CREDITS / ABOUT
 

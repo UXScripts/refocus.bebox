@@ -34,7 +34,7 @@
 				<width>352</width>
 				<label>$LOCALIZE[13012]</label>
 				<onclick>Dialog.Close(shutdownmenu)</onclick>
-				<onclick>XBMC.Quit()</onclick>
+				<onclick>ActivateWindowAndFocus(1101,10,0,0,0)</onclick>
 				<include>dialog_MenuButton</include>
 				<visible>System.ShowExitButton</visible>
 			</control>
@@ -43,7 +43,7 @@
 				<width>352</width>
 				<label>$LOCALIZE[13016]</label>
 				<onclick>Dialog.Close(shutdownmenu)</onclick>
-				<onclick>XBMC.Powerdown()</onclick>
+				<onclick>ActivateWindowAndFocus(1101,20,0,0,0)</onclick>
 				<include>dialog_MenuButton</include>
 				<visible>System.CanPowerDown</visible>
 			</control>

@@ -602,6 +602,15 @@ msgctxt "#31717"
 msgid "Finishing up"
 msgstr "Fertigstellen"
 
+msgctxt "#31718"
+msgid "Shutting down..."
+msgstr "Herunterfahren..."
+
+msgctxt "#31719"
+msgid "Exiting..."
+msgstr "Beenden..."
+
+
 #: CREDITS / ABOUT
 msgctxt "#31800"
 msgid "Skin design + development"
